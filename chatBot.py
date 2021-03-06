@@ -41,7 +41,7 @@ except:
 			#By eliminating extra characters It is  making our model more accurate 
 			words.extend(wrds)
 			#Adding all words in
-			docs_x.append(pattern)
+			docs_x.append(wrds)
 			docs_y.append(intent["tag"])
 
 		if intent["tag"] not in labels:
